@@ -1,0 +1,109 @@
+.whoPaid {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.howMuch {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottomButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.bigBtn {
+    width: 400px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color:rgba(68, 67, 67, 0.842);
+    color: white;
+}
+
+.bigBtn:hover, .addBtn:hover {
+    background-color:rgb(46, 45, 44)
+}
+
+.hidden {
+    display: none
+}
+
+#whoPaid {
+    text-align: center;
+}
+
+.priceInput {
+    height: 40px;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+#total {
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.addBtn {
+    height: 40px;
+    background-color:rgba(68, 67, 67, 0.842);
+    margin: 5px;
+    color: white;
+    border-style: none;
+}
+
+.enterMoney {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: white;
+    width: 600px;
+    border-style: none;
+}
+
+.message {
+    margin-right: 20px;
+    font-size: 20px;
+    border-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px
+}
+
+body {
+    background-color:rgba(0, 0, 0, 0.938);
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list {
+    border-style:none;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+    color: white
+}
+
+.bigText {
+    color: white;
+}
+
+#whoPaid {
+    display: flex;
+    justify-content: center;
+}
+
+.priceInput {
+    background-color:rgba(68, 67, 67, 0.842);
+    color: white;
+    border-style: none;
+
+}
