@@ -1,0 +1,33 @@
+<html>
+    <link rel="stylesheet" href="style.css"/>
+    <body>
+        <div class="whoPaid">
+            <h1 class = "bigtext" >Who paid for this transaction?</h1>
+            <button class="bigBtn" id="presBtn">Preston</button>
+            <button class="bigBtn" id="sydBtn">Sydni</button>
+            <p id="total" class="bigText"></p>
+        </div>
+        <div class="ghost hidden">
+            <h1 id="whoPaid" class="bigText"></h1>
+            <div class="howMuch">
+                <div class="enterMoney">
+                    <p class="message">Enter the items here!</p>
+                    <input id="regInput" class="priceInput" type="number">
+                    <button id="regBtn" class="addBtn">Add</button>
+                    <p id="regList" class="list">$0.00</p>
+                </div>
+                <div class="enterMoney">
+                    <p class="message">Enter split items here!</p>
+                    <input id="splitInput" class="priceInput" type="number">
+                    <button id="splitBtn" class="addBtn">Add</button>
+                    <p id="splitList" class="list">$0.00</p>
+                </div>
+            </div>
+            <div id="bottomButtons">
+                <button id="addToTotal" class="bigBtn">Add to Total</button>
+                <button id="deleteBtn"class="bigBtn">Delete current items</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
